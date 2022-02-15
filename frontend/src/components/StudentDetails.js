@@ -72,7 +72,7 @@ class StudentDetails extends Component {
                 </div>
                 <div className='row btns'>
                     <div>
-                        <button className='btn btn-danger' onClick={this.deleteOnClick.bind(this, student._id)}>Delete This Book</button>
+                        <button className='btn btn-danger' onClick={this.deleteOnClick.bind(this, student._id)}>Delete This Record</button>
                         <Link to={`/update-student/${student._id}`} className="btn btn-primary">Update This Record</Link>
                     </div>
                 </div>

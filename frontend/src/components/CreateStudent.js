@@ -36,6 +36,7 @@ class CreateStudent extends Component {
                 course: '',
                 year: ''
             })
+            window.location.href = 'http://localhost:3000';
         }).catch(console.log(" Error in creating a Record "));
     }
     render(){
